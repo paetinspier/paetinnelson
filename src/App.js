@@ -42,16 +42,7 @@ function App() {
       setSelected(3);
       setOption("orange");
       console.log("project");
-    }
-
-
-    // console.log("home page height: " + homeH);
-    // console.log("about page height: " + aboutH);
-    // console.log("resume page height: " + resumeH);
-    // console.log("project page height: " + projectH);
-    // console.log(window.scrollY);
-
-    
+    }    
   }
 
   useEffect(() => {
