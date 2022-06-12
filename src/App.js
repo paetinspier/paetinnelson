@@ -12,8 +12,8 @@ function App() {
   const aboutRef = useRef(null);
   const resumeRef = useRef(null);
   const projectRef = useRef(null);
-  const [selected, setSelected] = useState(1);
-  const [option, setOption] = useState("yellow");
+  const [selected, setSelected] = useState(0);
+  const [option, setOption] = useState("orange");
 
 
   const listenScrollEvent = (event) => {

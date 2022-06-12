@@ -5,7 +5,7 @@ import Typography from '@mui/material/Typography';
 import SocialButtons from '../components/SocialButtons';
 import Background from '../images/pattern4.svg';
 import { Box } from '@mui/material';
-import { useTypewriter } from 'react-simple-typewriter'
+import { useTypewriter, Cursor } from 'react-simple-typewriter'
 
 function HomeScreen() {
     const {text} = useTypewriter({
@@ -21,7 +21,9 @@ function HomeScreen() {
                 <div style={{color: 'white', fontSize: '5em', fontWeight: '300'}}>
                     <span>&#123;</span>
                     <span>{text}</span>
+                    <Cursor/>
                     <span>&#125;</span>
+                    
                 </div>
 
                 <Box>
