@@ -10,7 +10,7 @@ import AdobeAnimateLogo from '../images/AdobeAnimate.png'
 
 function ProjectScreen() {
     return(
-        <Container maxWidth='false' sx={{height: '100%', backgroundColor: '#F8F8F8', paddingBottom:'2vh'}}>
+        <Container maxWidth='false' sx={{minHeight: '100vh', backgroundColor: '#F8F8F8', paddingBottom:'2vh', maxHeight:"100%"}}>
             <Grid container mb={5}>
                 <Grid item sx={{marginLeft: '15vw'}} mt={10}>
                     <Box sx={{borderBottom:'solid', borderLeft:'solid', borderColor:'black', borderWidth: '1px'}}>

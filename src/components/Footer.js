@@ -20,7 +20,7 @@ function Footer(){
                 </Grid>   
 
                 <Grid item xs={3}>
-                    <p>&copy; Copyright 2022 Paetin S. Nelson</p>
+                    <p>&copy; Copyright 2022 Paetin Nelson</p>
                 </Grid>   
             
             </Grid> 
