@@ -33,25 +33,3 @@ function AboutScreen() {
 }
 
 export default AboutScreen;
-
-
-{/* 
-<Grid container sx={{position: 'relative', top: '30vh'}}>
-    <Grid item xs='auto' ml={12}>
-        <Stack>
-            <Typography variant='h1' mb={2} sx={{color: 'white', fontWeight: '500'}}>
-                About
-            </Typography>
-            <Box sx={{width: '35vw'}}>
-                <Typography variant='h5' sx={{color: 'white', fontWeight: '300'}}>
-                    Hello, i'm Paetin, a 2022 graduate from the University of Redlands with a passion for designing, constructing, and testing end-user applications through the use of programming languages, architecture, and platforms to meet user needs. 
-                </Typography>
-            </Box>
-        </Stack>
-    </Grid>
-
-    <Grid item ml={20} mt={20}>
-        <a href={Resume} download="PaetinNelsonResume.pdf" style={{color: 'black', fontWeight:'400'}}><Fab variant='extended'><DownloadIcon sx={{ mr: 1}}/>Download Resume</Fab></a>
-    </Grid>
-</Grid> 
-*/}
