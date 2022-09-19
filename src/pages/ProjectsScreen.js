@@ -21,7 +21,7 @@ function ProjectScreen() {
                     <Grid container spacing={{ xs: 3, md: 4 }}>
 
                         <Grid item xs='auto'>
-                            <ProjectCard title='Redlands Review App' description='An Android Mobile Application created to review food/entertainment establishments in Redlands, California modeled after the yelp app' image={AndroidLogo} url='https://github.com/paetinspier/FoodForFuel'/>
+                            <ProjectCard title='Redlands Review App' description='An Android Mobile Application created to review food/entertainment establishments in Redlands, California modeled after the yelp app' image={AndroidLogo} url='https://github.com/paetinspier/Redlands_Review_App'/>
                         </Grid>
 
                         <Grid item>
