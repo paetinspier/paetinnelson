@@ -3,7 +3,7 @@ import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import {Box, Typography} from '@mui/material';
 import ProjectCard from '../components/ProjectCard';
-import FoodForFuelLogo from '../images/logo.png';
+import AndroidLogo from '../images/download.png';
 import PSDBLOGO from '../images/PSDB-mist.jpg'
 import ArduinoLogo from '../images/ArduinoLogo.jpg'
 import AdobeAnimateLogo from '../images/AdobeAnimate.png'
@@ -21,7 +21,7 @@ function ProjectScreen() {
                     <Grid container spacing={{ xs: 3, md: 4 }}>
 
                         <Grid item xs='auto'>
-                            <ProjectCard title='Macronutrient Tracker App' description='A React.JS web application which allows users to track their macronutrient intake to help achieve their desired weight goals.' image={FoodForFuelLogo} url='https://github.com/paetinspier/FoodForFuel'/>
+                            <ProjectCard title='Redlands Review App' description='An Android Mobile Application created to review food/entertainment establishments in Redlands, California modeled after the yelp app' image={AndroidLogo} url='https://github.com/paetinspier/FoodForFuel'/>
                         </Grid>
 
                         <Grid item>

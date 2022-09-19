@@ -2,7 +2,7 @@ import {Box, Container, Grid, Stack, Typography} from '@mui/material';
 import React, {useState, useEffect} from 'react';
 import DownloadIcon from '@mui/icons-material/Download';
 import Fab from '@mui/material/Fab';
-import Resume from '../resources/P_Nelson_Resume_2022.pdf';
+import Resume from '../resources/Paetin_s_Resume.pdf';
 
 
 
